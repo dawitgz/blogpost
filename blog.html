@@ -2,14 +2,13 @@
 <html>
     <head>
         <title>Blog Post</title>
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
         <link rel="stylesheet" href="css/blog.css"/>
     </head>
     <body>
         <header class="container">
-            <header class='header'><a href='index.html'><img src="./assets/icons/home.svg" alt="Home icon"/></a></header>
+            <header class='header'><a href='index.html'><img id='home-icon' src="./assets/icons/home.svg" alt="Home icon"/></a></header>
             <div class="content">
                 <div class="blog">
                     <section class="introduction">
@@ -21,6 +20,11 @@
                     </section>
                     <article>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices et massa et dignissim. In in mi ac neque auctor gravida quis in nisl. Mauris eu cursus purus. Nunc elementum ligula ac odio consectetur, a porttitor ipsum consectetur. Nunc et sem et quam consectetur efficitur. Sed volutpat sodales turpis non venenatis. Duis sed aliquam dolor.</p>
+
+                        <figure>
+                            <img class="blog-content-image" src='https://source.unsplash.com/random'/>
+                            <figcaption>A placeholder image, will be replaced by blog specific image.</figcaption>
+                        </figure>
 
                         <p>Duis orci diam, maximus ac efficitur id, convallis eu est. Ut et ullamcorper dolor. Aenean efficitur ex non nunc convallis, quis scelerisque orci varius. In et pulvinar mi. Integer maximus neque vitae libero ultricies, nec gravida urna lobortis. Praesent condimentum nisl nec odio volutpat tempor. Vivamus consectetur nulla nec neque dapibus, quis efficitur ex accumsan. Ut posuere quam vitae fermentum molestie. Nam auctor sit amet dolor eleifend feugiat. Nam condimentum mi non sem facilisis congue.</p>
                         
@@ -46,9 +50,9 @@
                 </span>
                 <nav>
                     <ul>
-                        <li><a href='http://www.facebook.com' target='_blank'><img src='./assets/icons/facebook.svg' alt='Facebook icon'></a></li>
-                        <li><a href='http://www.twitter.com' target='_blank'><img src='./assets/icons/twitter.svg' alt='Twitter icon'></a></li>
-                        <li><a href='http://www.linkedin.com' target='_blank'><img src='./assets/icons/linkedin.svg' alt='LinkedIn icon'></a></li>
+                        <li><a href='http://www.facebook.com' target='_blank'><img class='social-media-logo' src='./assets/icons/facebook.svg' alt='Facebook icon'></a></li>
+                        <li><a href='http://www.twitter.com' target='_blank'><img class='social-media-logo' src='./assets/icons/twitter.svg' alt='Twitter icon'></a></li>
+                        <li><a href='http://www.linkedin.com' target='_blank'><img class='social-media-logo' src='./assets/icons/linkedin.svg' alt='LinkedIn icon'></a></li>
                     </ul>
                 </nav>
             </footer>

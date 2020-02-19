@@ -1,0 +1,19 @@
+
+.footer {
+    grid-area: footer;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+.social-media-logo {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,24 @@
+
+.author {
+    grid-area: author;
+    background-color: #F5f5f5;
+    padding: 15px;
+    height: fit-content;
+}
+
+.author-name {
+    font-weight: 900;
+    font-size: 1.25em;
+    
+}
+
+.author-title, .author-company {
+    font-size: .75em;
+}
+
+.author-bio {
+    font-weight: 500;
+    font-size: .75em;  
+    line-height: 2em;
+    margin-top: 15px;
+}

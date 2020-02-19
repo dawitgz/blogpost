@@ -1,0 +1,25 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    margin: 20px;
+    padding:10px;
+}
+
+p {
+    margin: 5px;
+}
+
+.blog-button {
+    background-color: #7c9db3;
+    border: 1px solid cornflowerblue;
+    color: white;
+    text-align: center;
+    width: 33%;
+    margin-left: auto;
+    padding: 7px;
+}
+
+.blog-button:hover {
+    background-color: rgb(27, 110, 182);
+}

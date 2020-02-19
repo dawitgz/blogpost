@@ -1,77 +1,9 @@
-html, body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
-}
+@import "blog-container.css";
+@import "blog-header.css";
+@import "blog-content.css";
+@import "blog-author.css";
+@import "blog-footer.css";
 
-.container {
-    display: grid;
-    width: 100%;
-    height: 800px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(100px, auto);
-    grid-template-areas: 
-    "header header header header header"
-    "main main main main author"
-    "footer footer footer footer footer";
-}
-
-.header {
-    grid-area: header;
-    height: 50px;
-}
-
-.header img {
-    height: 50px;
-    width: 50px;
-    float: right;
-}
-
-.content {
-    grid-area: main;
-}
-
-.author {
-    grid-area: author;
-    background-color: #F5f5f5;
-    padding: 15px;
-    height: 50%;
-}
-
-.author-name {
-    font-weight: 900;
-    font-size: 1.25em;
-    
-}
-
-.author-title, .author-company {
-    font-size: .75em;
-}
-
-.author-bio {
-    font-weight: 500;
-    font-size: .75em;  
-    line-height: 2em;
-    margin-top: 15px;
-}
-
-.footer {
-    grid-area: footer;
-    height: 50px;
-}
-
-.footer ul {
-    list-style-type: none;
-    float: right;
-}
-
-.footer li {
-    display: inline-block;
-}
-
-.footer img {
-    width: 40px;
-    height: 40px;
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

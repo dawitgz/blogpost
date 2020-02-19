@@ -1,0 +1,56 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.25em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header, .footer {
+    height: 30px;
+    width: 90%;
+}
+
+#blog-nav-icon {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#blog-nav-icon:hover {
+    background-color: lightblue;
+}
+
+.main {
+    flex-direction: column;
+    overflow: auto;
+    vertical-align: text-top;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.blog-nav-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#blog-nav:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}

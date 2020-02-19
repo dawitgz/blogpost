@@ -1,0 +1,17 @@
+.content {
+    grid-area: main;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75em;
+}
+
+.blog-content-image {
+    height: 200px;
+    width: 100%;
+}

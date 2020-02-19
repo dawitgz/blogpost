@@ -1,0 +1,11 @@
+
+.header {
+    grid-area: header;
+    height: 50px;
+}
+
+#home-icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
